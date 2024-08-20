@@ -91,8 +91,39 @@
 
 ```json
 {
-
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Proyecto A",
+      "descripcion": "Desarrollar una app contable",
+      "tareas": [
+        {
+          "id": 1,
+          "nombre": "backend",
+          "estado": "Pendiente",
+          "fechaInicio": "2024-11-22",
+          "fechaFin": "2024-12-02",
+          "usuariosTarea": [
+            {
+              "usuarioId": 1,
+              "tareaId": 1,
+              
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Samir",
+      "email": "Samirkalil@hotmail.com"
+    }
+  ]
 }
+
+
 
 
 
